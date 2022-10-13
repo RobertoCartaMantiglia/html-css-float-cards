@@ -6,7 +6,7 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
-.clearflex ::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -23,7 +23,7 @@ header>h1{
     color: #e43673;
 }
 
-img .card{
+img.card{
     float: left;
     width: 10px;
     height: 10px;      
@@ -32,7 +32,7 @@ img .card{
 .card-box{
     margin-top: 3em;
     width: 25%;
-    height: 25%;
+    background-color: rgb(216, 157, 29);
 }
 .contacts{
     background-color: aqua;
