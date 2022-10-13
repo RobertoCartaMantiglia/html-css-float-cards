@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 .clearfix::after{
     content: "";
@@ -14,7 +15,7 @@ body{
 }
 .container{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding-top: 1.5rem;
 }
 header>h1{
@@ -25,27 +26,31 @@ header>h1{
 
 img.card{
     float: left;
-    width: 55px;
+    width: 24.5%;
         
 }
 span{
-    display: block;
     font-weight: bold;
+    display: block;
 }
 
 .job, .name{
     color: white;
 }
+.job{
+    font-size: small;
+}
 .email{
     color: #2f8fc5;
+    font-size: smaller;
 }
-
-    
+ 
 .card-box{
     margin-top: 3em;
-    width: 37%;
+    width: 30%;
 }
 .contacts{
-    background-color: black;
+    background-color: #0f0e17;
+    margin: 3px auto;
 }
 
