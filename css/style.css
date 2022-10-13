@@ -4,15 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-weight: bold;
 }
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
 
-}
 .container{
     margin: 0 auto;
     width: 80%;
@@ -23,10 +18,13 @@ header>h1{
     color: #e43673;
     font-weight: bold;
 }
+.cards{
+    float: left;
+}
 
 img.card{
     float: left;
-    width: 24.5%;
+    height: 100%;
         
 }
 span{
@@ -46,11 +44,18 @@ span{
 }
  
 .card-box{
-    margin-top: 3em;
-    width: 30%;
+    /* margin-top: 3em; */
+    width: 300px;
+    height: 80px;
+    background-color: black;
 }
 .contacts{
-    background-color: #0f0e17;
+
     margin: 3px auto;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 
+}
