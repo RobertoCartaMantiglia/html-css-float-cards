@@ -27,7 +27,7 @@ header>h1{
     float: left;
     width: calc((100% / 3) - 30px);     
     height: 80px;
-    background-color: black;
+    background-color: #0f0e17;
     min-width: 150px;
     box-shadow: 2px 2px 2px lightgrey;
 }
