@@ -4,32 +4,36 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
-.container{
-    margin: 0 auto;
-    width: 80%;
-    padding-top: 1.5rem;
-}
 header>h1{
     text-align: center;
     color: #e43673;
     font-weight: bold;
 }
-.cards{
-    float: left;
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1.5rem;
 }
-
+.card-box{
+    margin: 15px;
+    float: left;
+    width: calc((100% / 3) - 30px);
+    height: 80px;
+    background-color: black;
+}
 img.card{
     float: left;
     height: 100%;
-        
+    margin-right: 12px;      
 }
 span{
     font-weight: bold;
     display: block;
+    padding: 2.5px 2.5px;
 }
 
 .job, .name{
@@ -43,14 +47,7 @@ span{
     font-size: smaller;
 }
  
-.card-box{
-    /* margin-top: 3em; */
-    width: 300px;
-    height: 80px;
-    background-color: black;
-}
 .contacts{
-
     margin: 3px auto;
 }
 .clearfix::after{
