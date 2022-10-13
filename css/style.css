@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.clearflex ::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: aqua;
+    padding-top: 1.5rem;
+}
+header>h1{
+    text-align: center;
+    color: #e43673;
+}
+
+img .card{
+    float: left;
+    width: 10px;
+    height: 10px;      
+}
+
+.card-box{
+    margin-top: 3em;
+    width: 25%;
+    height: 25%;
+}
+.contacts{
+    background-color: aqua;
+}
+.contacts > h1 h2{
+    display: inline-block;
+}
